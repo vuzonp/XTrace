@@ -14,6 +14,25 @@
             "homepage": "https://github.com/tungnguyenson/"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "vuzonp/XTrace",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/vuzonp/XTrace.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vuzonp\\Xtrace\\": "src/"
+        }
+    },
     "require": {
         "php": ">=5.3"
     }
