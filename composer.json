@@ -21,8 +21,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Vuzonp\\Xtrace\\": "src/"
+        "psr-0": {
+            "": "src"
         }
     },
     "require": {
