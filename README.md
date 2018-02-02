@@ -10,3 +10,4 @@ $xt = new Vuzonp\Xtrace\Document('my-file.xt');
 $xtTree = $xt->getRoot();
 //...
 ```
+.
